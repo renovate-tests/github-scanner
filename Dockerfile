@@ -31,7 +31,7 @@ FROM ubuntu:18.04
 # renovate: datasource=docker depName=openjdk versioning=docker
 ARG JAVA_VERSION=8
 
-# renovate: datasource=gradle-version depName=gradle versioning=maven
+# renovate: datasource=gradle-version depName=gradle
 ARG GRADLE_VERSION=6.0.1
 
 # renovate: datasource=github-releases depName=poetry lookupName=python-poetry/poetry versioning=poetry
