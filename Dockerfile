@@ -32,7 +32,7 @@ FROM ubuntu:18.04
 ARG JAVA_VERSION=8
 
 # renovate: datasource=gradle-version depName=gradle
-ARG GRADLE_VERSION=6.0.1
+ARG GRADLE_VERSION=6.8.1
 
 # renovate: datasource=github-releases depName=poetry lookupName=python-poetry/poetry versioning=poetry
 ARG POETRY_VERSION=1.0.5
