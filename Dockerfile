@@ -38,7 +38,7 @@ ARG GRADLE_VERSION=6.0.1
 ARG POETRY_VERSION=1.0.5
 
 # renovate: datasource=docker depName=golang versioning=docker
-ARG GOLANG_VERSION=1.12.6
+ARG GOLANG_VERSION=1.15.7
 
 ## keep both maven args together
 ARG MAVEN_VERSION=3.5.4
