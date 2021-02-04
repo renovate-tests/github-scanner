@@ -48,7 +48,7 @@ ARG MAVEN_VERSION_SHA=CE50B1C91364CB77EFE3776F756A6D92B76D9038B0A0782F7D53ACF1E9
 ARG SCALA_VERSION=2.12.6
 
 # renovate: datasource=github-releases depName=sbt lookupName=sbt/sbt versioning=maven
-ARG SBT_VERSION=1.1.6
+ARG SBT_VERSION=v1.4.7
 
 # No renovate datasource exists yet
 ARG HASKELL_GHC_VERSION=8.6.5
