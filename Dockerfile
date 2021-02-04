@@ -44,10 +44,10 @@ ARG GOLANG_VERSION=1.12.6
 ARG MAVEN_VERSION=3.5.4
 ARG MAVEN_VERSION_SHA=CE50B1C91364CB77EFE3776F756A6D92B76D9038B0A0782F7D53ACF1E997A14D
 
-# renovate: datasource=github-releases depName=scala/scala versioning=maven
+# renovate: datasource=github-releases depName=scala lookupName=scala/scala versioning=maven
 ARG SCALA_VERSION=2.12.6
 
-# renovate: datasource=github-releases depName=sbt/sbt versioning=maven
+# renovate: datasource=github-releases depName=sbt lookupName=sbt/sbt versioning=maven
 ARG SBT_VERSION=1.1.6
 
 # No renovate datasource exists yet
