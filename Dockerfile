@@ -28,26 +28,26 @@ FROM ubuntu:18.04
 # 24. dotnet-sdk-2.2,dotnet cli and NuGet
 # 25. Cargo
 
-# renovate: datasource=docker lookupName=openjdk versioning=docker
+# renovate: datasource=docker depName=openjdk versioning=docker
 ARG JAVA_VERSION=8
 
-# renovate: datasource=gradle-version versioning=maven
+# renovate: datasource=gradle-version depName=gradle versioning=maven
 ARG GRADLE_VERSION=6.0.1
 
-# renovate: datasource=github-releases lookupName=python-poetry/poetry
+# renovate: datasource=github-releases depName=python-poetry/poetry versioning=poetry
 ARG POETRY_VERSION=1.0.5
 
-# renovate: datasource=docker versioning=docker
+# renovate: datasource=docker depName=golang versioning=docker
 ARG GOLANG_VERSION=1.12.6
 
 ## keep both maven args together
 ARG MAVEN_VERSION=3.5.4
 ARG MAVEN_VERSION_SHA=CE50B1C91364CB77EFE3776F756A6D92B76D9038B0A0782F7D53ACF1E997A14D
 
-# renovate: datasource=github-releases lookupName=scala/scala
+# renovate: datasource=github-releases depName=scala/scala versioning=maven
 ARG SCALA_VERSION=2.12.6
 
-# renovate: datasource=github-releases lookupName=sbt/sbt
+# renovate: datasource=github-releases depName=sbt/sbt versioning=maven
 ARG SBT_VERSION=1.1.6
 
 # No renovate datasource exists yet
