@@ -6,5 +6,6 @@
     "com.wss:scm-scanner-parent",
     "com.wss.container.utils:wss-container-apply-configuration",
     "com.wss.container.utils:wss-container-prerequisites"
-  ]
+  ],
+  "prHourlyLimit": 0
 }
