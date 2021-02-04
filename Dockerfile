@@ -35,7 +35,7 @@ ARG JAVA_VERSION=8
 ARG GRADLE_VERSION=6.0.1
 
 # renovate: datasource=github-releases depName=poetry lookupName=python-poetry/poetry versioning=poetry
-ARG POETRY_VERSION=1.0.5
+ARG POETRY_VERSION=1.1.4
 
 # renovate: datasource=docker depName=golang versioning=docker
 ARG GOLANG_VERSION=1.12.6
