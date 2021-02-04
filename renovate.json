@@ -6,7 +6,5 @@
     "com.wss:scm-scanner-parent",
     "com.wss.container.utils:wss-container-apply-configuration",
     "com.wss.container.utils:wss-container-prerequisites"
-  ],
-  "dependencyDashboard": true,
-  "dependencyDashboardApproval": true
+  ]
 }
