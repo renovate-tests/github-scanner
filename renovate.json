@@ -2,15 +2,6 @@
   "extends": [
     "config:base"
   ],
-  "regexManagers": [
-    {
-      "description": "Update _VERSION variables in Dockerfiles",
-      "fileMatch": ["(^|/|\\.)Dockerfile$", "(^|/)Dockerfile\\.[^/]*$"],
-      "matchStrings": [
-        "# renovate: datasource=(?<datasource>[a-z-]+?) depName=(?<depName>[^\\s]+?)(?: lookupName=(?<lookupName>[^\\s]+?))?(?: versioning=(?<versioning>[a-z-]+?))?\\s(?:ENV|ARG) .+?_VERSION=(?<currentValue>.+?)\\s"
-      ]
-    }
-  ],
   "ignoreDeps": [
     "com.wss:scm-scanner-parent",
     "com.wss.container.utils:wss-container-apply-configuration",
